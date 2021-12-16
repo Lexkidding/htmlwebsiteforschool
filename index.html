@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+
+<html lang="pl">
+<head>
+    <meta charset="UTF-8" />
+    <title>Strona Jakuba Kotlewskiego</title>
+    <style>
+        body {
+            background-image: url('tlo.png');
+            background-size:cover;
+        }
+        #tytul {
+            font-family: Courier New Regular;
+            font-size: 50px;
+            text-align: center;
+            color: #f0c63e;
+            background: linear-gradient(to right, grey 100%, transparent 0);
+            max-width: fit-content;
+            height: fit-content;
+            margin: auto;
+        }
+        #wstep {
+            font-family: Courier New Regular;
+            font-size: 20px;
+            text-align: center;
+            color: #f0c63e;
+            background: linear-gradient(to right, #403f3c 100%, transparent 0);
+            max-width: 70%;
+            height: fit-content;
+            margin: auto;
+        }
+        .naglowek {
+            font-family: Courier New Regular;
+            font-size: 40px;
+            color: #f0c63e;
+            background: linear-gradient(to right, grey 100%, transparent 0);
+            max-width: 88%;
+            height: fit-content;
+            margin: auto 
+        }
+        .text {
+            font-family: Courier New Regular;
+            font-size: 17px;
+            text-align: center;
+            color: white;
+            background: linear-gradient(to right, #403f3c 100%, transparent 0);
+            max-width: 98%;
+            height: fit-content;
+            margin: auto
+        }
+        .button {
+            font-family: Courier New Regular;
+            font-size: 17px;
+            margin: auto;
+            color: #f0c63e;
+            background: linear-gradient(to right, #403f3c 100%, transparent 0);
+            max-width: 98%;
+            text-align: center;
+            align-items: center;
+            border: none;
+            transition-duration: 0.4s;
+        }
+        .button:hover {
+            background-color: #f0c63e;
+            color: white;
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        .menu {
+            margin:auto;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="tytul">
+        Praca w "McDonalds" - Czy warto? 
+    </div>
+    <div id="wstep">
+        Wielu moich znajomych pyta mnie "jak się w tym maku pracuje?", <br>
+        i szczerze ciężko spormułować mi na takie pytanie jednoznaczną odpowiedź. <br>
+        Więc na tej stronie przedstawiam wam moje przemyślenia dotyczące pracy w "Maku".
+    </div>
+    <div class="menu"> 
+         <button class="button" onclick=autor()><u>Autor strony</u></button>
+         <button class="button" ><a href="https://praca.mcdonalds.pl/oferty-pracy" style="color:#f0c63e"><u>Sprawdź gdzie możesz pracować w McDonald's</u>!</a></button>
+    </div>
+    <div class="text">
+        <p class="naglowek">Jak zacząć prace w McDonalds?</p> 
+        Jest to bardzo prosta rzecz. Wystarczy zapytać kierownika zmiany o podanie dotyczące rozpoczęcia pracy w restauracji w której chcesz pracować.
+        Jeżeli znajdzie się dla ciebie miejsce, na pewno z chęcią przyjmą cię na okres próbny, trwający trzy miesiące. <br />
+        Po okresie próbnym, gdy już poznasz stanowiska i zasady pracy w restauracji, otrzymasz umowę na dłuższy okres.
+        <img class="pracamak" src="praca-mak.png" />
+    </div>
+    <div class="text">
+        <p class="naglowek">Pracujesz. I co dalej?</p>
+        Po ukończeniu wsystkich wymaganych szkoleń na danych stanowiskach, jak i ukończeniu okresu próbnego, jesteś usytuowany na stanowisku Pracownika Restauracji.<br />
+        Jednak kontynuując swoją pracę i wykazując zaangażowanie, po pewnym czasie będziesz mógł awansować na stanowisko Instruktora.<br /> Na tym 
+        stanowisku będziesz uczył innych nowych pracowników zaczynających swoją pracę na okresie próbnym. <br />
+        Jednak awanse nie przychodzą tak szybko! Zanim poznasz wszystkie stanowiska, i sekrety kryjące się za nimi, przed tobą długa droga. <br />
+        Nie zniechęcaj się, gdyż miła i przyjazna atmosfera pomiędzy pracownikami restauracji na pewno doda ci chęci do pracy!
+    </div>
+    <div class="text">
+    <iframe width="909" height="511" src="https://www.youtube.com/embed/GwnBf1QZfVc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <script>
+        function autor() {
+            alert("Autorem strony jest Jakub Kotlewski!")
+        }
+       
+    </script>
+</body>
+</html>
